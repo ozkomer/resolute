@@ -58,6 +58,10 @@ a:hover { text-decoration: underline; }
 }
 .requirements { margin-top: 14px; font-size: 14px; color: var(--muted); }
 
+/* Screenshot */
+.shot { padding-bottom: 16px; }
+.shot img { display: block; width: 100%; height: auto; border-radius: 18px; box-shadow: var(--shadow); }
+
 /* Features */
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; padding: 24px 0 64px; }
 .feature { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 22px; box-shadow: var(--shadow); }
